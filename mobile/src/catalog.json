@@ -1,0 +1,36 @@
+{
+ "checkedAt":"2026-09-23",
+ "apps":[
+  {"id":"skt","name":"T 멤버십","packageName":"com.tms","mark":"T","color":"#E85D45","kind":"telco"},
+  {"id":"happy","name":"해피포인트","packageName":"com.hpapp","mark":"H","color":"#4668B3","kind":"brand"},
+  {"id":"starbucks","name":"스타벅스","packageName":"com.starbucks.co","mark":"S","color":"#296349","kind":"brand"},
+  {"id":"mcdonalds","name":"맥도날드","packageName":"com.mcdonalds.mobileapp","mark":"M","color":"#AC482E","kind":"brand"},
+  {"id":"papa","name":"파파존스","packageName":"kr.co.pji.android","mark":"P","color":"#427457","kind":"brand"},
+  {"id":"outback","name":"아웃백","packageName":"kr.co.Outback","mark":"O","color":"#994B43","kind":"brand"},
+  {"id":"burgerking","name":"버거킹","packageName":"kr.co.burgerkinghybrid","mark":"B","color":"#9E532F","kind":"brand"},
+  {"id":"kfc","name":"KFC","packageName":"kfc_ko.kore.kg.kfc_korea","mark":"K","color":"#AC3F48","kind":"brand"},
+  {"id":"cu","name":"포켓CU","packageName":"com.bgfcu.membership","mark":"CU","color":"#754A9A","kind":"brand"},
+  {"id":"olive","name":"올리브영","packageName":"com.oliveyoung","mark":"O","color":"#63743A","kind":"brand"},
+  {"id":"hana","name":"하나Pay","packageName":"com.hanaskcard.paycla","mark":"H","color":"#278376","kind":"payment"},
+  {"id":"lotte","name":"디지로카","packageName":"com.lcacApp","mark":"L","color":"#394252","kind":"payment"},
+  {"id":"hyundai","name":"현대카드","packageName":"com.hyundaicard.appcard","mark":"H","color":"#575568","kind":"payment"},
+  {"id":"samsung","name":"삼성 월렛","packageName":"com.samsung.android.spay","mark":"W","color":"#3459B1","kind":"payment"}
+ ],
+ "merchants":[
+  {"id":"paris","name":"파리바게뜨","category":"베이커리","aliases":["파리바게트","파바","paris baguette"],"mark":"PB","color":"#425D84","options":[{"appId":"skt","label":"T 멤버십 할인·적립","note":"등급, 이용 한도, 제외 매장을 확인하세요. 할인형·적립형에 따라 혜택이 달라집니다.","source":"https://m.tworld.co.kr/membership/benefit/brand"},{"appId":"happy","label":"해피포인트 적립·쿠폰","note":"앱에서 보유 쿠폰과 적립 조건을 확인하세요. 다른 할인과 중복 여부는 매장에서 확인하세요."}]},
+  {"id":"starbucks","name":"스타벅스","category":"카페","aliases":["스벅","starbucks"],"mark":"S","color":"#296349","options":[{"appId":"starbucks","label":"스타벅스 리워드·쿠폰","note":"별 적립은 결제수단과 상품에 따라 달라집니다. 쿠폰·리워드 조건을 먼저 확인하세요."}]},
+  {"id":"mcdonalds","name":"맥도날드","category":"패스트푸드","aliases":["맥날","mcdonalds","mcdonald's"],"mark":"M","color":"#AC482E","options":[{"appId":"mcdonalds","label":"마이 맥도날드 리워드·쿠폰","note":"앱에서 사용할 쿠폰 또는 리워드를 선택하고 매장 사용 조건을 확인하세요."}]},
+  {"id":"papa","name":"파파존스","category":"피자","aliases":["파파존스피자","papa johns"],"mark":"P","color":"#427457","options":[{"appId":"skt","label":"T 멤버십 할인·적립","note":"직원에게 T 멤버십 바코드를 제시하세요. 주문 방식·메뉴별 조건과 다른 할인과의 중복 여부를 확인하세요.","source":"https://sktmembership.tworld.co.kr/mps/pc-bff/benefitbrand/detail.do?brandId=329"},{"appId":"papa","label":"파파존스 앱 쿠폰·행사","note":"앱 전용 주문 혜택이 포함되어 있습니다. 매장 결제 적용 여부는 별도 확인하세요."}]},
+  {"id":"outback","name":"아웃백","category":"레스토랑","aliases":["아웃백스테이크하우스","outback"],"mark":"O","color":"#994B43","options":[{"appId":"skt","label":"T 멤버십 할인·적립","note":"등급별 혜택과 이용 횟수·한도가 다릅니다. 매장 직원에게 적용 여부를 확인하세요.","source":"https://m.tworld.co.kr/membership/benefit/brand"},{"appId":"outback","label":"부메랑 멤버십·쿠폰","note":"아웃백 앱에서 부메랑 카드와 쿠폰을 확인하세요. 다른 할인과 자동 합산되지 않습니다.","source":"https://www.outback.co.kr/etc/mobileOutback.do"}]},
+  {"id":"burgerking","name":"버거킹","category":"패스트푸드","aliases":["버킹","burger king","burgerking"],"mark":"B","color":"#9E532F","options":[{"appId":"burgerking","label":"버거킹 멤버십·쿠폰","note":"쿠폰별 매장·메뉴·주문 방식 제한을 확인하고 사용할 쿠폰을 선택하세요."}]},
+  {"id":"kfc","name":"KFC","category":"패스트푸드","aliases":["케이에프씨"],"mark":"K","color":"#AC3F48","options":[{"appId":"kfc","label":"KFC 멤버십·쿠폰","note":"커넬포인트와 쿠폰은 주문 방식별 조건이 다릅니다. 앱에서 이용 조건을 확인하세요."}]},
+  {"id":"cu","name":"CU","category":"편의점","aliases":["씨유"],"mark":"CU","color":"#754A9A","options":[{"appId":"skt","label":"T 멤버십 할인·적립","note":"행사 상품·제외 품목과 등급별 한도를 확인하세요. 할인형·적립형에 따라 혜택이 달라집니다.","source":"https://m.tworld.co.kr/membership/benefit/brand"},{"appId":"cu","label":"포켓CU 멤버십·쿠폰","note":"포켓CU에서 멤버십과 쿠폰을 확인하세요. T 멤버십과 중복 적용 여부는 매장에서 확인하세요."}]},
+  {"id":"olive","name":"올리브영","category":"뷰티","aliases":["올영","olive young","oliveyoung"],"mark":"O","color":"#63743A","options":[{"appId":"olive","label":"올리브영 멤버십·쿠폰","note":"앱에서 멤버십과 보유 쿠폰을 확인하세요. 온라인·오프라인 쿠폰의 사용 조건이 다릅니다."}]}
+ ],
+ "cards":[
+  {"id":"sk","name":"SK패밀리카드","issuer":"하나카드","tag":"마트형","color":"#40695F","appId":"hana","terms":"https://m.hanacard.co.kr/leaflet/03/03374_20240828.pdf"},
+  {"id":"hilton","name":"힐튼 아너스 아멕스 프리미엄","issuer":"롯데카드","tag":"힐튼 아너스","color":"#384655","appId":"lotte","terms":"https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14735-A14735"},
+  {"id":"pink","name":"the Pink Edition3","issuer":"현대카드","tag":"Edition3","color":"#B8798E","appId":"hyundai","terms":"https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=TPIE3"},
+  {"id":"zero","name":"ZERO Edition3","issuer":"현대카드","tag":"포인트형","color":"#747467","appId":"hyundai","terms":"https://www.hyundaicard.com/upload/card/ZERO%20Edition3%28%ED%8F%AC%EC%9D%B8%ED%8A%B8%ED%98%95%29%20%EC%83%81%ED%92%88%20%EA%B0%80%EC%9D%B4%EB%93%9C%EB%B6%81.pdf"}
+ ]
+}

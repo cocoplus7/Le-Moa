@@ -1,0 +1,25 @@
+# Local dependencies and generated output
+**/node_modules/
+**/.expo/
+**/dist/
+**/dist-android/
+**/web-build/
+**/*.log
+**/*.tsbuildinfo
+
+# Local tools and private configuration
+**/.claude/
+**/.codex/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/*.jks
+**/*.p12
+**/*.mobileprovision
+.DS_Store
+Thumbs.db
+
+# Original reference is historical, not the current product specification
+CODEX_PROMPT.reference.md

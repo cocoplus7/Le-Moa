@@ -1,0 +1,10 @@
+import catalog from './catalog.json';
+export const apps=catalog.apps;
+export const merchants=catalog.merchants;
+export const cards=catalog.cards;
+export const checkedAt=catalog.checkedAt;
+export type Merchant=(typeof merchants)[number];
+export type PaymentCard=(typeof cards)[number];
+export type ExternalApp=(typeof apps)[number];
+export const storeUrl=(app:ExternalApp)=>`https://play.google.com/store/apps/details?id=${encodeURIComponent(app.packageName)}&hl=ko`;
+export const appById=(id:string)=>apps.find(a=>a.id===id);
