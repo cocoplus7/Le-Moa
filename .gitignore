@@ -23,3 +23,5 @@ Thumbs.db
 
 # Original reference is historical, not the current product specification
 CODEX_PROMPT.reference.md
+
+.research/

@@ -1,3 +1,4 @@
+import {restoreGrades} from './benefits.ts';
 import { merchants,cards,apps,type Merchant } from './registry.ts';
 export const normalize=(value:string)=>value.normalize('NFKC').toLowerCase().replace(/\s+/g,'').trim();
 export function searchMerchants(query:string) {
@@ -10,14 +11,16 @@ export function membershipCandidates(merchant:Merchant,holdings:string[]) {
 export function orderedCards(holdings:string[],primary:string) {
  return cards.filter(c=>holdings.includes(c.id)).sort((a,b)=>Number(b.id===primary)-Number(a.id===primary));
 }
-export type Preferences={memberships:string[];cards:string[];primary:string;largeText:boolean};
-export const defaultPreferences:Preferences={memberships:['skt'],cards:cards.map(c=>c.id),primary:'',largeText:false};
+export type Preferences={memberships:string[];cards:string[];primary:string;largeText:boolean;grades:Record<string,string>;sktMode:string;brandGrades:Record<string,string>};
+export const defaultPreferences:Preferences={memberships:['skt'],cards:cards.map(c=>c.id),primary:'',largeText:false,grades:restoreGrades(null),sktMode:'unknown',brandGrades:{}};
 export function restorePreferences(raw:unknown):Preferences {
  if(!raw||typeof raw!=='object') return defaultPreferences;
  const value=raw as Record<string,unknown>;
  const strings=(x:unknown,fallback:string[],allowed:string[])=>Array.isArray(x)?[...new Set(x.filter((a):a is string=>typeof a==='string'&&allowed.includes(a)))]:fallback;
+ const grades=value.brandGrades&&typeof value.brandGrades==='object'?value.brandGrades as Record<string,unknown>:{};
+ const brandGrades=Object.fromEntries(apps.filter(a=>a.kind==='brand').map(a=>{const grade=grades[a.id];return [a.id,typeof grade==='string'?grade.trim().slice(0,30):''];}));
  const cardIds=strings(value.cards,defaultPreferences.cards,cards.map(c=>c.id));
- return {memberships:strings(value.memberships,defaultPreferences.memberships,apps.filter(a=>a.kind!=='payment').map(a=>a.id)),cards:cardIds,primary:typeof value.primary==='string'&&cardIds.includes(value.primary)?value.primary:'',largeText:value.largeText===true};
+ return {memberships:strings(value.memberships,defaultPreferences.memberships,apps.filter(a=>a.kind!=='payment').map(a=>a.id)),cards:cardIds,primary:typeof value.primary==='string'&&cardIds.includes(value.primary)?value.primary:'',largeText:value.largeText===true,grades:restoreGrades(value.grades),sktMode:['discount','earn'].includes(String(value.sktMode))?String(value.sktMode):'unknown',brandGrades};
 }
 export type Flow={merchantId:string|null;stage:'search'|'benefits'|'payment';lastLaunch:string|null};
 export type FlowEvent={type:'select';merchantId:string}|{type:'payment'}|{type:'back'}|{type:'launch';appId:string};

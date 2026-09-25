@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import fs from 'node:fs';
+import {cardBenefit,membershipRate,gradeOptions} from '../src/benefits.ts';
+import {restorePreferences} from '../src/domain.ts';
+import sources from '../src/asset-sources.json';
+test('KT and U+ grades change verified Paris benefits',()=>{assert.match(membershipRate('paris','kt','VIP','unknown'),/100원/);assert.match(membershipRate('paris','kt','SILVER','unknown'),/50원/);assert.match(membershipRate('paris','lgu','우수','unknown'),/50원/);assert.match(membershipRate('paris','lgu','VVIP','unknown'),/100원/);});
+test('unknown grade or benefit mode cannot advertise a known personal rate',()=>{for(const app of ['skt','kt','lgu'])assert.match(membershipRate('paris',app,'미설정','discount'),/설정/);assert.match(membershipRate('paris','skt','VIP','unknown'),/설정/);assert.match(membershipRate('paris','skt','LITE','earn'),/확인/);});
+test('T membership keeps discount and earn units distinct',()=>{assert.match(membershipRate('cu','skt','GOLD','earn'),/100P 적립/);assert.match(membershipRate('cu','skt','SILVER','discount'),/50원 할인/);assert.match(membershipRate('papa','skt','GOLD','discount'),/15%/);assert.match(membershipRate('papa','skt','VIP','discount'),/30%/);});
+test('Outback own tier differentiates 2% and 3% points',()=>{assert.match(membershipRate('outback','outback','WELCOME','unknown'),/2%/);assert.match(membershipRate('outback','outback','GOLD','unknown'),/3%/);});
+test('Pink special rate only applies to supported Olive Young store',()=>{assert.match(cardBenefit('pink','olive').headline,/5%/);assert.match(cardBenefit('pink','olive').condition,/100만원.*3만/);for(const id of ['paris','starbucks','cu',undefined])assert.match(cardBenefit('pink',id).headline,/1.5%/);});
+test('Hilton points are per 1500 won, never a cash percent',()=>{assert.match(cardBenefit('hilton','cu').headline,/1,500원당 2/);assert.ok(!cardBenefit('hilton','cu').headline.includes('%'));});
+test('SK mart card applies common coffee condition only at Starbucks',()=>{assert.match(cardBenefit('sk','starbucks').headline,/10%/);assert.match(cardBenefit('sk','starbucks').condition,/20만원/);assert.match(cardBenefit('sk','paris').headline,/0.3~0.9%/);});
+test('grades and types survive storage roundtrip',()=>{const p=restorePreferences({grades:{skt:'GOLD',kt:'VVIP',lgu:'우수',outback:'PLATINUM'},sktMode:'earn',brandGrades:{starbucks:'Gold'}});const q=restorePreferences(JSON.parse(JSON.stringify(p)));assert.deepEqual(q,p);assert.equal(q.brandGrades.starbucks,'Gold');assert.equal(q.grades.outback,'PLATINUM');assert.ok(Object.keys(gradeOptions).length>=4);});
+test('all nine logos and four card assets exist with official provenance',()=>{assert.equal(sources.length,13);for(const source of sources){assert.ok(fs.statSync(source.file).size>500);assert.equal(new URL(source.url).protocol,'https:');}});

@@ -1,0 +1,16 @@
+import type {ImageSourcePropType} from 'react-native';
+export const artwork:Record<string,ImageSourcePropType>={
+ 'paris':require('../assets/brands/paris.jpg'),
+ 'starbucks':require('../assets/brands/starbucks.png'),
+ 'mcdonalds':require('../assets/brands/mcdonalds.png'),
+ 'papa':require('../assets/brands/papa.png'),
+ 'outback':require('../assets/brands/outback.png'),
+ 'burgerking':require('../assets/brands/burgerking.png'),
+ 'kfc':require('../assets/brands/kfc.png'),
+ 'cu':require('../assets/brands/cu.jpg'),
+ 'olive':require('../assets/brands/olive.png'),
+ 'pink':require('../assets/cards/pink.png'),
+ 'zero':require('../assets/cards/zero.png'),
+ 'hilton':require('../assets/cards/hilton.png'),
+ 'sk':require('../assets/cards/sk.png'),
+};

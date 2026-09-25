@@ -1,0 +1,94 @@
+[
+  {
+    "id": "paris",
+    "file": "assets/brands/paris.jpg",
+    "url": "https://d2afncas1tel3t.cloudfront.net/wp-content/uploads/2020/01/logo.jpg",
+    "page": "https://www.paris.co.kr/",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "starbucks",
+    "file": "assets/brands/starbucks.png",
+    "url": "https://play-lh.googleusercontent.com/vD7K2him82DhJFyfPjw9WbPIXTqLoS8_LoC4GPpfBKKsc2apjowqvcCw2l9zNRrI_YbortUyLhfKW14ePgL0pA=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.starbucks.co&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "mcdonalds",
+    "file": "assets/brands/mcdonalds.png",
+    "url": "https://play-lh.googleusercontent.com/3h8gQNsOyBFPLotarZymUM6PJaHXLjZkn8JhaOwVDE1lDsJhlbTt5uf3o5kvj7g1B3S76FpksR12ISeGw-eJ_LQ=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "papa",
+    "file": "assets/brands/papa.png",
+    "url": "https://play-lh.googleusercontent.com/WvnPR9zpYSjyrk8c9a-0GDL7xRMj69AD8niHojhBeIaJ9lF8rQunA2lQh_mNjR-0c8f_zyIG6ykwbQ80a_TA=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=kr.co.pji.android&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "outback",
+    "file": "assets/brands/outback.png",
+    "url": "https://play-lh.googleusercontent.com/PXX7NsYbX6Z7etY9OTuhHdT1EYJHuGQwBW_v9EzfgpposmbCi9vinoS1hdhTgClUzrJI2_pZvC5lnZiaqRvLvZM=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=kr.co.Outback&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "burgerking",
+    "file": "assets/brands/burgerking.png",
+    "url": "https://play-lh.googleusercontent.com/BGGDoO4PK3YCvzyvyybm5a0bTKTCjYdmr8w3w2NTuqwpv1Cf9il92fokovPslds-Ewx5RqRT17kfpO8c5ZQsmw=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=kr.co.burgerkinghybrid&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "kfc",
+    "file": "assets/brands/kfc.png",
+    "url": "https://play-lh.googleusercontent.com/Nl9u3TNmfXY8R5sMjGjFCbhkkI4iQxqHhd_Hz3Zl5zbPFn4txgw9vfi84zz06XNOvhZv5nTD-DBRxVBc_B7Q=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=kfc_ko.kore.kg.kfc_korea&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "cu",
+    "file": "assets/brands/cu.jpg",
+    "url": "https://play-lh.googleusercontent.com/BrsA4goInqyz4gCt94UWc2eaJdCGamjAnBpPVSSFXcPPaTf1xWgfYB2-5e_-1YYV4MtfJdqa--DKwz1raQkN=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.bgfcu.membership&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "olive",
+    "file": "assets/brands/olive.png",
+    "url": "https://play-lh.googleusercontent.com/g0LUjSMvA6spKsdi3M0LXGikC5s06uEsNoparRyXyuE1xEnLi5HPQA5MFpHx1uiJXnJzAZ6fDFBl0ouAwtUZ=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.oliveyoung&hl=ko",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "pink",
+    "file": "assets/cards/pink.png",
+    "url": "https://img.hyundaicard.com/img/com/card/card_TPIE3_h.png",
+    "page": "https://www.hyundaicard.com/cpc/ma/CPCMA0101_01.hc",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "zero",
+    "file": "assets/cards/zero.png",
+    "url": "https://img.hyundaicard.com/img/com/card/card_MZROE3_h.png",
+    "page": "https://www.hyundaicard.com/cpc/ma/CPCMA0101_01.hc",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "hilton",
+    "file": "assets/cards/hilton.png",
+    "url": "https://image.lottecard.co.kr/UploadFiles/ecenterPath/cdInfo/ecenterCdInfoP14735-A14735_nm1_v.png",
+    "page": "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14735-A14735",
+    "checkedAt": "2026-09-24"
+  },
+  {
+    "id": "sk",
+    "file": "assets/cards/sk.png",
+    "url": "https://m.hanacard.co.kr/leaflet/03/03374_20240828.pdf",
+    "page": "https://m.hanacard.co.kr/leaflet/03/03374_20240828.pdf",
+    "checkedAt": "2026-09-24",
+    "note": "PDF 1페이지 스마트라이프 앞면, PDF 렌더링으로 원본 도안 추출"
+  }
+]
