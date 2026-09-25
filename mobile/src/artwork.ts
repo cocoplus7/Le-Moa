@@ -17,4 +17,5 @@ export const artwork:Record<string,ImageSourcePropType>={
  'kt':require('../assets/memberships/kt.png'),
  'lgu':require('../assets/memberships/lgu.png'),
  'happy':require('../assets/memberships/happy.png'),
+ 'lemoa':require('../assets/identity/lemoa.png'),
 };

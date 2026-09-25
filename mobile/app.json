@@ -15,7 +15,8 @@
       "blockedPermissions": [
         "android.permission.RECORD_AUDIO",
         "android.permission.SYSTEM_ALERT_WINDOW"
-      ]
+      ],
+      "icon": "./assets/identity/lemoa.png"
     },
     "plugins": [
       "./plugins/withAppQueries"
@@ -23,7 +24,9 @@
     "web": {
       "name": "르모아 Le Moa",
       "shortName": "르모아",
-      "bundler": "metro"
-    }
+      "bundler": "metro",
+      "favicon": "./assets/identity/lemoa.png"
+    },
+    "icon": "./assets/identity/lemoa.png"
   }
 }

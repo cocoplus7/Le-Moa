@@ -17,16 +17,18 @@
   {
     "id": "mcdonalds",
     "file": "assets/brands/mcdonalds.png",
-    "url": "https://play-lh.googleusercontent.com/3h8gQNsOyBFPLotarZymUM6PJaHXLjZkn8JhaOwVDE1lDsJhlbTt5uf3o5kvj7g1B3S76FpksR12ISeGw-eJ_LQ=s0-br30",
-    "page": "https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp&hl=ko",
-    "checkedAt": "2026-09-24"
+    "url": "user-provided:mcdonalds-logo",
+    "page": "User supplied image, 2026-09-25",
+    "checkedAt": "2026-09-25",
+    "note": "사용자가 제공한 원본 이미지, 변형 없이 복사"
   },
   {
     "id": "papa",
     "file": "assets/brands/papa.png",
-    "url": "https://play-lh.googleusercontent.com/WvnPR9zpYSjyrk8c9a-0GDL7xRMj69AD8niHojhBeIaJ9lF8rQunA2lQh_mNjR-0c8f_zyIG6ykwbQ80a_TA=s0-br30",
-    "page": "https://play.google.com/store/apps/details?id=kr.co.pji.android&hl=ko",
-    "checkedAt": "2026-09-24"
+    "url": "user-provided:papa-logo",
+    "page": "User supplied image, 2026-09-25",
+    "checkedAt": "2026-09-25",
+    "note": "사용자가 제공한 원본 이미지, 변형 없이 복사"
   },
   {
     "id": "outback",
@@ -45,9 +47,10 @@
   {
     "id": "kfc",
     "file": "assets/brands/kfc.png",
-    "url": "https://play-lh.googleusercontent.com/Nl9u3TNmfXY8R5sMjGjFCbhkkI4iQxqHhd_Hz3Zl5zbPFn4txgw9vfi84zz06XNOvhZv5nTD-DBRxVBc_B7Q=s0-br30",
-    "page": "https://play.google.com/store/apps/details?id=kfc_ko.kore.kg.kfc_korea&hl=ko",
-    "checkedAt": "2026-09-24"
+    "url": "user-provided:kfc-logo",
+    "page": "User supplied image, 2026-09-25",
+    "checkedAt": "2026-09-25",
+    "note": "사용자가 제공한 원본 이미지, 변형 없이 복사"
   },
   {
     "id": "cu",
@@ -119,5 +122,13 @@
     "url": "https://play-lh.googleusercontent.com/tNb_kvQZD2qwUe7ubZEfsZ_fz21-uPt3rXzR8jjCYE7CkoumOHBEsUdGPSSKpEdY6WANf5SkBoS3ufuKlD5neA=s0-br30",
     "page": "https://play.google.com/store/apps/details?id=com.hpapp&hl=ko",
     "checkedAt": "2026-09-25"
+  },
+  {
+    "id": "lemoa",
+    "file": "assets/identity/lemoa.png",
+    "url": "user-provided:lemoa-logo",
+    "page": "User supplied image, 2026-09-25",
+    "checkedAt": "2026-09-25",
+    "note": "사용자가 제공한 원본 이미지, 변형 없이 복사"
   }
 ]
