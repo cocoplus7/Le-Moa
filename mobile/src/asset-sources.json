@@ -1,10 +1,11 @@
 [
   {
     "id": "paris",
-    "file": "assets/brands/paris.jpg",
-    "url": "https://d2afncas1tel3t.cloudfront.net/wp-content/uploads/2020/01/logo.jpg",
-    "page": "https://www.paris.co.kr/",
-    "checkedAt": "2026-09-24"
+    "file": "assets/brands/paris.png",
+    "url": "user-provided:paris-baguette-logo",
+    "page": "User supplied image, 2026-09-25",
+    "checkedAt": "2026-09-25",
+    "note": "사용자가 제공한 PB 원형 로고 원본, 변형 없이 복사"
   },
   {
     "id": "starbucks",
@@ -90,5 +91,33 @@
     "page": "https://m.hanacard.co.kr/leaflet/03/03374_20240828.pdf",
     "checkedAt": "2026-09-24",
     "note": "PDF 1페이지 스마트라이프 앞면, PDF 렌더링으로 원본 도안 추출"
+  },
+  {
+    "id": "skt",
+    "file": "assets/memberships/skt.png",
+    "url": "https://play-lh.googleusercontent.com/cF3NdLW8AfDwzG5veo8YK5B0R5dyKQfBmgAl7EbXaV118-02yDZ8ohnN6YGBOPzIAk6gXQEGHoTAhHqkbGWl=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.tms&hl=ko",
+    "checkedAt": "2026-09-25"
+  },
+  {
+    "id": "kt",
+    "file": "assets/memberships/kt.png",
+    "url": "https://play-lh.googleusercontent.com/odCgKgVPZKhw9C7N5ASJ_JZjxhrmxp-TtbrYazwPCtlvAjBkdYA7-czpoHmmyi4ugjqbwbZJJGIX-Ht8k8XtzA=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.olleh.android.oc2&hl=ko",
+    "checkedAt": "2026-09-25"
+  },
+  {
+    "id": "lgu",
+    "file": "assets/memberships/lgu.png",
+    "url": "https://play-lh.googleusercontent.com/gzlMLyXobhr93hWIjyRBDRM3Jkd0-dan-FbJo9IsZt_mDtKl30jBXn06NdsC5lljIhGCbWi92RNSrIpcVsU3iw=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.lguplus.mobile.cs&hl=ko",
+    "checkedAt": "2026-09-25"
+  },
+  {
+    "id": "happy",
+    "file": "assets/memberships/happy.png",
+    "url": "https://play-lh.googleusercontent.com/tNb_kvQZD2qwUe7ubZEfsZ_fz21-uPt3rXzR8jjCYE7CkoumOHBEsUdGPSSKpEdY6WANf5SkBoS3ufuKlD5neA=s0-br30",
+    "page": "https://play.google.com/store/apps/details?id=com.hpapp&hl=ko",
+    "checkedAt": "2026-09-25"
   }
 ]
