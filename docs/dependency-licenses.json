@@ -228,6 +228,12 @@
     "development": false
   },
   {
+    "name": "@babel/plugin-transform-arrow-functions",
+    "version": "7.29.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "@babel/plugin-transform-async-generator-functions",
     "version": "7.29.7",
     "license": "MIT",
@@ -366,8 +372,26 @@
     "development": false
   },
   {
+    "name": "@babel/plugin-transform-react-jsx-self",
+    "version": "7.29.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@babel/plugin-transform-react-jsx-source",
+    "version": "7.29.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "@babel/plugin-transform-react-pure-annotations",
     "version": "7.29.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@babel/plugin-transform-regenerator",
+    "version": "7.29.8",
     "license": "MIT",
     "development": false
   },
@@ -381,6 +405,18 @@
     "name": "semver",
     "version": "6.3.1",
     "license": "ISC",
+    "development": false
+  },
+  {
+    "name": "@babel/plugin-transform-shorthand-properties",
+    "version": "7.29.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@babel/plugin-transform-template-literals",
+    "version": "7.29.7",
+    "license": "MIT",
     "development": false
   },
   {
@@ -528,6 +564,12 @@
     "development": true
   },
   {
+    "name": "@expo-google-fonts/material-symbols",
+    "version": "0.4.48",
+    "license": "MIT AND Apache-2.0",
+    "development": false
+  },
+  {
     "name": "@expo/code-signing-certificates",
     "version": "0.0.6",
     "license": "MIT",
@@ -630,6 +672,30 @@
     "development": false
   },
   {
+    "name": "@expo/metro-config",
+    "version": "57.0.12",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "hermes-estree",
+    "version": "0.36.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "hermes-parser",
+    "version": "0.36.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "@expo/metro-file-map",
     "version": "57.0.3",
     "license": "MIT",
@@ -692,6 +758,12 @@
   {
     "name": "@expo/sudo-prompt",
     "version": "9.3.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@expo/ui",
+    "version": "57.0.20",
     "license": "MIT",
     "development": false
   },
@@ -792,8 +864,86 @@
     "development": true
   },
   {
+    "name": "@radix-ui/primitive",
+    "version": "1.1.7",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-compose-refs",
+    "version": "1.1.5",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-context",
+    "version": "1.2.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-direction",
+    "version": "1.1.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-focus-guards",
+    "version": "1.1.6",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-id",
+    "version": "1.1.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-slot",
+    "version": "1.3.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-use-callback-ref",
+    "version": "1.1.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-use-controllable-state",
+    "version": "1.2.6",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-use-effect-event",
+    "version": "0.0.5",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-use-is-hydrated",
+    "version": "0.1.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-use-layout-effect",
+    "version": "1.1.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "@react-native-async-storage/async-storage",
     "version": "2.2.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@react-native-masked-view/masked-view",
+    "version": "0.3.2",
     "license": "MIT",
     "development": false
   },
@@ -805,6 +955,12 @@
   },
   {
     "name": "@react-native/babel-plugin-codegen",
+    "version": "0.86.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@react-native/babel-preset",
     "version": "0.86.3",
     "license": "MIT",
     "development": false
@@ -859,6 +1015,30 @@
   },
   {
     "name": "@react-native/js-polyfills",
+    "version": "0.86.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@react-native/metro-babel-transformer",
+    "version": "0.86.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "hermes-estree",
+    "version": "0.36.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "hermes-parser",
+    "version": "0.36.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@react-native/metro-config",
     "version": "0.86.3",
     "license": "MIT",
     "development": false
@@ -932,6 +1112,12 @@
   {
     "name": "@types/react",
     "version": "19.2.18",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@types/react-test-renderer",
+    "version": "19.3.0",
     "license": "MIT",
     "development": false
   },
@@ -1122,6 +1308,12 @@
     "development": false
   },
   {
+    "name": "aria-hidden",
+    "version": "1.2.6",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "array-buffer-byte-length",
     "version": "1.0.2",
     "license": "MIT",
@@ -1219,7 +1411,7 @@
   },
   {
     "name": "babel-plugin-react-native-web",
-    "version": "0.21.2",
+    "version": "0.21.3",
     "license": "MIT",
     "development": false
   },
@@ -1244,6 +1436,12 @@
   {
     "name": "babel-plugin-transform-flow-enums",
     "version": "0.0.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "babel-preset-expo",
+    "version": "57.0.13",
     "license": "MIT",
     "development": false
   },
@@ -1392,6 +1590,12 @@
     "development": false
   },
   {
+    "name": "client-only",
+    "version": "0.0.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "cliui",
     "version": "8.0.1",
     "license": "ISC",
@@ -1404,6 +1608,12 @@
     "development": false
   },
   {
+    "name": "color",
+    "version": "4.2.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "color-convert",
     "version": "2.0.1",
     "license": "MIT",
@@ -1412,6 +1622,12 @@
   {
     "name": "color-name",
     "version": "1.1.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "color-string",
+    "version": "1.9.1",
     "license": "MIT",
     "development": false
   },
@@ -1542,6 +1758,12 @@
     "development": false
   },
   {
+    "name": "decode-uri-component",
+    "version": "0.2.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "deep-is",
     "version": "0.1.4",
     "license": "MIT",
@@ -1587,6 +1809,12 @@
     "name": "detect-libc",
     "version": "2.1.2",
     "license": "Apache-2.0",
+    "development": false
+  },
+  {
+    "name": "detect-node-es",
+    "version": "1.1.0",
+    "license": "MIT",
     "development": false
   },
   {
@@ -1939,7 +2167,31 @@
   },
   {
     "name": "expo",
-    "version": "57.0.24",
+    "version": "57.0.25",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-constants",
+    "version": "57.0.19",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-crypto",
+    "version": "57.0.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-font",
+    "version": "57.0.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-glass-effect",
+    "version": "57.0.4",
     "license": "MIT",
     "development": false
   },
@@ -1950,20 +2202,74 @@
     "development": false
   },
   {
+    "name": "expo-linking",
+    "version": "57.0.11",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-location",
+    "version": "57.0.20",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "expo-modules-autolinking",
     "version": "57.0.13",
     "license": "MIT",
     "development": false
   },
   {
-    "name": "expo-modules-core",
-    "version": "57.0.18",
+    "name": "expo-modules-jsi",
+    "version": "57.1.1",
     "license": "MIT",
     "development": false
   },
   {
-    "name": "expo-modules-jsi",
-    "version": "57.1.0",
+    "name": "expo-router",
+    "version": "57.0.23",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-collection",
+    "version": "1.1.15",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-presence",
+    "version": "1.1.10",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-primitive",
+    "version": "2.1.10",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-roving-focus",
+    "version": "1.1.19",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-tabs",
+    "version": "1.1.21",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-is",
+    "version": "19.3.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-secure-store",
+    "version": "57.0.4",
     "license": "MIT",
     "development": false
   },
@@ -1980,20 +2286,26 @@
     "development": false
   },
   {
+    "name": "expo-symbols",
+    "version": "57.0.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "expo-web-browser",
+    "version": "57.0.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "@expo/cli",
-    "version": "57.0.26",
+    "version": "57.0.27",
     "license": "MIT",
     "development": false
   },
   {
     "name": "@expo/router-server",
-    "version": "57.0.10",
-    "license": "MIT",
-    "development": false
-  },
-  {
-    "name": "@expo/metro-config",
-    "version": "57.0.12",
+    "version": "57.0.11",
     "license": "MIT",
     "development": false
   },
@@ -2010,12 +2322,6 @@
     "development": false
   },
   {
-    "name": "babel-preset-expo",
-    "version": "57.0.12",
-    "license": "MIT",
-    "development": false
-  },
-  {
     "name": "ci-info",
     "version": "3.9.0",
     "license": "MIT",
@@ -2028,20 +2334,8 @@
     "development": false
   },
   {
-    "name": "expo-constants",
-    "version": "57.0.19",
-    "license": "MIT",
-    "development": false
-  },
-  {
     "name": "expo-file-system",
     "version": "57.0.7",
-    "license": "MIT",
-    "development": false
-  },
-  {
-    "name": "expo-font",
-    "version": "57.0.4",
     "license": "MIT",
     "development": false
   },
@@ -2052,14 +2346,8 @@
     "development": false
   },
   {
-    "name": "hermes-estree",
-    "version": "0.36.1",
-    "license": "MIT",
-    "development": false
-  },
-  {
-    "name": "hermes-parser",
-    "version": "0.36.1",
+    "name": "expo-modules-core",
+    "version": "57.0.19",
     "license": "MIT",
     "development": false
   },
@@ -2103,7 +2391,7 @@
     "name": "fast-deep-equal",
     "version": "3.1.3",
     "license": "MIT",
-    "development": true
+    "development": false
   },
   {
     "name": "fast-json-stable-stringify",
@@ -2162,6 +2450,12 @@
   {
     "name": "fill-range",
     "version": "7.1.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "filter-obj",
+    "version": "1.1.0",
     "license": "MIT",
     "development": false
   },
@@ -2266,6 +2560,12 @@
     "version": "1.3.0",
     "license": "MIT",
     "development": true
+  },
+  {
+    "name": "get-nonce",
+    "version": "1.0.1",
+    "license": "MIT",
+    "development": false
   },
   {
     "name": "get-proto",
@@ -2476,6 +2776,12 @@
     "version": "3.0.5",
     "license": "MIT",
     "development": true
+  },
+  {
+    "name": "is-arrayish",
+    "version": "0.3.4",
+    "license": "MIT",
+    "development": false
   },
   {
     "name": "is-async-function",
@@ -3492,6 +3798,12 @@
     "development": true
   },
   {
+    "name": "query-string",
+    "version": "7.1.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "range-parser",
     "version": "1.2.1",
     "license": "MIT",
@@ -3516,6 +3828,18 @@
     "development": false
   },
   {
+    "name": "react-fast-compare",
+    "version": "3.2.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-freeze",
+    "version": "1.0.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "react-is",
     "version": "18.3.1",
     "license": "MIT",
@@ -3524,6 +3848,42 @@
   {
     "name": "react-native",
     "version": "0.86.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-native-drawer-layout",
+    "version": "4.2.10",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-native-gesture-handler",
+    "version": "3.3.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-native-is-edge-to-edge",
+    "version": "1.3.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-native-reanimated",
+    "version": "4.5.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-native-safe-area-context",
+    "version": "5.7.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-native-screens",
+    "version": "4.26.2",
     "license": "MIT",
     "development": false
   },
@@ -3546,6 +3906,12 @@
     "development": false
   },
   {
+    "name": "react-native-worklets",
+    "version": "0.10.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "commander",
     "version": "12.1.0",
     "license": "MIT",
@@ -3554,6 +3920,24 @@
   {
     "name": "react-refresh",
     "version": "0.14.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-remove-scroll",
+    "version": "2.7.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-remove-scroll-bar",
+    "version": "2.3.8",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "react-style-singleton",
+    "version": "2.2.3",
     "license": "MIT",
     "development": false
   },
@@ -3744,6 +4128,12 @@
     "development": false
   },
   {
+    "name": "server-only",
+    "version": "0.0.1",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "set-function-length",
     "version": "1.2.2",
     "license": "MIT",
@@ -3771,6 +4161,18 @@
     "name": "setprototypeof",
     "version": "1.2.0",
     "license": "ISC",
+    "development": false
+  },
+  {
+    "name": "sf-symbols-typescript",
+    "version": "2.2.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "shallowequal",
+    "version": "1.1.0",
+    "license": "MIT",
     "development": false
   },
   {
@@ -3828,6 +4230,12 @@
     "development": false
   },
   {
+    "name": "simple-swizzle",
+    "version": "0.2.4",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "sisteransi",
     "version": "1.0.5",
     "license": "MIT",
@@ -3864,6 +4272,12 @@
     "development": false
   },
   {
+    "name": "split-on-first",
+    "version": "1.1.0",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "stable-hash",
     "version": "0.0.5",
     "license": "MIT",
@@ -3878,6 +4292,12 @@
   {
     "name": "stacktrace-parser",
     "version": "0.1.11",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "standard-navigation",
+    "version": "0.0.5",
     "license": "MIT",
     "development": false
   },
@@ -3897,6 +4317,12 @@
     "name": "stream-buffers",
     "version": "2.2.0",
     "license": "Unlicense",
+    "development": false
+  },
+  {
+    "name": "strict-uri-encode",
+    "version": "2.0.0",
+    "license": "MIT",
     "development": false
   },
   {
@@ -4074,6 +4500,12 @@
     "development": true
   },
   {
+    "name": "tslib",
+    "version": "2.8.1",
+    "license": "0BSD",
+    "development": false
+  },
+  {
     "name": "tsx",
     "version": "4.23.15",
     "license": "MIT",
@@ -4188,6 +4620,24 @@
     "development": true
   },
   {
+    "name": "use-callback-ref",
+    "version": "1.3.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "use-latest-callback",
+    "version": "0.2.6",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "use-sidecar",
+    "version": "1.1.3",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "utils-merge",
     "version": "1.0.1",
     "license": "MIT",
@@ -4212,6 +4662,48 @@
     "development": false
   },
   {
+    "name": "vaul",
+    "version": "1.1.2",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-dialog",
+    "version": "1.1.23",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-dismissable-layer",
+    "version": "1.1.19",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-focus-scope",
+    "version": "1.1.16",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-portal",
+    "version": "1.1.17",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-presence",
+    "version": "1.1.10",
+    "license": "MIT",
+    "development": false
+  },
+  {
+    "name": "@radix-ui/react-primitive",
+    "version": "2.1.10",
+    "license": "MIT",
+    "development": false
+  },
+  {
     "name": "vlq",
     "version": "1.0.1",
     "license": "MIT",
@@ -4221,6 +4713,12 @@
     "name": "walker",
     "version": "1.0.8",
     "license": "Apache-2.0",
+    "development": false
+  },
+  {
+    "name": "warn-once",
+    "version": "0.1.1",
+    "license": "MIT",
     "development": false
   },
   {

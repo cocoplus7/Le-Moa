@@ -25,3 +25,7 @@ Thumbs.db
 CODEX_PROMPT.reference.md
 
 .research/
+
+# Private account database
+server/data/
+**/*.sqlite*

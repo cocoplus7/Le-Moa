@@ -13,6 +13,6 @@ for(const [dir,meta] of Object.entries(lock.packages)){
 }
 fs.mkdirSync('../docs',{recursive:true});
 fs.writeFileSync('../docs/dependency-licenses.json',JSON.stringify(entries,null,2));
-fs.writeFileSync('../docs/THIRD_PARTY_NOTICES.txt',notices.join('\n'));
+fs.writeFileSync('../docs/THIRD_PARTY_NOTICES.txt',notices.join('\n').replace(/[ \t]+$/gm,''));
 const counts={};for(const e of entries)counts[e.license]=(counts[e.license]||0)+1;
 console.log(JSON.stringify(counts,null,2));

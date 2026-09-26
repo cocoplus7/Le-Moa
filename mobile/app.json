@@ -19,13 +19,26 @@
       "icon": "./assets/identity/lemoa.png"
     },
     "plugins": [
-      "./plugins/withAppQueries"
+      "./plugins/withAppQueries",
+      "expo-secure-store",
+      "expo-web-browser",
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "주변 가게를 찾기 위해 앱 사용 중 위치를 사용합니다. 이동 기록은 저장하지 않습니다.",
+          "isIosBackgroundLocationEnabled": false,
+          "isAndroidBackgroundLocationEnabled": false,
+          "isAndroidForegroundServiceEnabled": false
+        }
+      ]
     ],
     "web": {
       "name": "르모아 Le Moa",
       "shortName": "르모아",
       "bundler": "metro",
-      "favicon": "./assets/identity/lemoa.png"
+      "favicon": "./assets/identity/lemoa.png",
+      "output": "single"
     },
     "icon": "./assets/identity/lemoa.png"
   }
